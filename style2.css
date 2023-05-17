@@ -1,73 +1,223 @@
 body {
-    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #f0e891;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #e7cda8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
+h1 {
+text-align: center;
+color: #333;
+}
+
+form {
+display: grid;
+grid-gap: 10px;
+}
+
+label {
+display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 14px;
+}
+
+select {
+width: 100%;
+padding: 5px;
+font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+margin-right: 5px;
+}
+
+input[type="submit"] {
+width: 100%;
+padding: 10px;
+background-color: #0099cc;
+color: #fff;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius: 120px;
+text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+background-color: #006699;
+}
+
+/* Ñòèëè äëÿ áëîêà success */
+.success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 120px;
+    color: #155724;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
 }
  
+/* Ñòèëè äëÿ áëîêà errors */
+.errors {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 120px;
+    color: #721c24;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+/* Ñòèëè äëÿ òåêñòà îøèáêè */
+.errors p {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Ñòèëè äëÿ êîíòåéíåðà */
 .container {
     max-width: 600px;
-    margin: 100px auto;
+    margin: 0 auto;
     padding: 20px;
-    background-color: #3ecec4;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px #3ecec4;
 }
  
+/* Ñòèëè äëÿ ôîðìû */
+form {
+    display: grid;
+    gap: 10px;
+}
+ 
+/* Ñòèëè äëÿ ðàäèî êíîïîê */
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+
 h1 {
-    font-size: 2rem;
-    text-align: center;
-    color: black;
-    margin-bottom: 1rem;
+text-align: center;
+color: #333;
 }
-.p{
-    font-size: 20px;
+
+form {
+display: grid;
+grid-gap: 10px;
 }
- 
-.error {
-    background-color: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    text-align: center
+
+label {
+display: block;
 }
- 
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 3px;
+font-size: 14px;
+}
+
+select {
+width: 100%;
+padding: 5px;
+font-size: 14px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+margin-right: 5px;
+}
+
 input[type="submit"] {
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+width: 100%;
+padding: 10px;
+background-color: #0099cc;
+color: #fff;
+font-size: 16px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-transform: uppercase;
 }
- 
+
 input[type="submit"]:hover {
-    background-color: #8fd3f4;
+background-color: #006699;
 }
 
-.alert {
-    padding: 15px;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    font-size: 1.1rem;
-}
- 
-.alert-danger {
-    background-color: #fff;
-    border-color: #fff;
-    color: black;
-    text-align: center
-}
- 
-.alert-success {
-    background-color: #fff;
-    border-color: #fff;
-   color: black;
-    text-align: center
-}
-
+/* Ñòèëè äëÿ áëîêà success */
 .success {
-  background-color: #fff;
-    padding: 10px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
     border-radius: 5px;
-    margin-bottom: 1rem;
-    color: black;
-    text-align: center
+    color: #155724;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+/* Ñòèëè äëÿ áëîêà errors */
+.errors {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    color: #721c24;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+ 
+/* Ñòèëè äëÿ òåêñòà îøèáêè */
+.errors p {
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Ñòèëè äëÿ êîíòåéíåðà */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+/* Ñòèëè äëÿ ôîðìû */
+form {
+    display: grid;
+    gap: 10px;
+}
+ 
+/* Ñòèëè äëÿ ðàäèî êíîïîê */
+form input[type="radio"] {
+    margin-right: 5px;
 }
