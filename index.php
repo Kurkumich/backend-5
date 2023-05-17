@@ -9,7 +9,7 @@
 	</head>
 	<body>
     <?php include 'forma.php'; ?>
-		<div class="container" style= "background-color: #3ecec4;">
+		<div class="container" >
       <?php
         if (isset($_SESSION['errors']) && !empty($_SESSION['errors'])) {
             echo '<div class="errors">';
